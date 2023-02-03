@@ -20,3 +20,5 @@ def main_function():
         elif guess > to_be_guessed:
             print('ваше число більше завданого')                
             upper_bound = guess - 1
+    else:
+        print('спроба невдала')
