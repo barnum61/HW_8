@@ -22,3 +22,9 @@ def main_function():
             upper_bound = guess - 1
     else:
         print('спроба невдала')
+
+def minus_one(num):
+    num -= 1
+    print(num)
+    if num > 0:
+        minus_one(num)
