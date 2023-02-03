@@ -19,3 +19,9 @@ def w_file(file_name, dc):
     with open(file_name, 'w') as file:
         for key, value in dc.items():
             file.write('{0}: {1}\n'.format(key, value))
+
+for item in os.listdir():
+    if os.path.isdir(item):
+        print('|' + item)
+    else:
+        print(item)
