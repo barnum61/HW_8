@@ -23,8 +23,13 @@ def main_function():
     else:
         print('спроба невдала')
 
+<<<<<<< HEAD
 def minus_one(num):
     num -= 1
     print(num)
     if num > 0:
         minus_one(num)
+=======
+def test_finction():
+    print("My name is ...")
+>>>>>>> test
