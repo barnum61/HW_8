@@ -25,3 +25,4 @@ for item in os.listdir():
         print('|' + item)
     else:
         print(item)
+print("Всього елементів:", len(os.listdir()))
