@@ -19,3 +19,5 @@ def w_file(file_name, dc):
     with open(file_name, 'w') as file:
         for key, value in dc.items():
             file.write('{0}: {1}\n'.format(key, value))
+
+print("Всього елементів:", len(os.listdir()))
