@@ -24,4 +24,4 @@ def main_function():
         print('спроба невдала')
 
 def test_finction():
-    pass
+    print("My name is ...")
