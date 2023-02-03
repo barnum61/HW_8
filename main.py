@@ -22,3 +22,6 @@ def main_function():
             upper_bound = guess - 1
     else:
         print('спроба невдала')
+
+def test_finction():
+    pass
